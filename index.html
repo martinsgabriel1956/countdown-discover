@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./public/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Countdown</title>
   </head>
   <body>
+    <img src="./assets/top-image.svg" alt="" class="top" width="100%" />
     <main class="container">
-      <img src="./assets/top-image.svg" alt="" class="top" width="100%" />
-
       <section class="content">
         <div class="countdown-container">
-          <h2>Ready to launch in...</h2>
+          <h1>Ready to launch in...</h1>
 
           <div class="countdown">
             <div class="days-container">
-              <p>Dias</p>
-              <p class="days"></p>
+              <span>Dias</span>
+              <span class="days"></span>
             </div>
             <div class="hours-container">
-              <p>Horas</p>
-              <p class="hours"></p>
+              <span>Horas</span>
+              <span class="hours"></span>
             </div>
             <div class="minutes-container">
-              <p>Minutos</p>
-              <p class="minutes"></p>
+              <span>Minutos</span>
+              <span class="minutes"></span>
             </div>
             <div class="seconds-container">
-              <p>Segundos</p>
-              <p class="seconds"></p>
+              <span>Segundos</span>
+              <span class="seconds"></span>
             </div>
           </div>
         </div>
-
+        
         <p>Inscreva-se para saber mais sobre o lançamento</p>
-
+        
         <button>Inscreva-se</button>
       </section>
       <section class="img-container">
         <img src="./assets/rocket.svg" alt="" />
       </section>
-
-      <img src="./assets/bottom-image.svg" alt="" class="bottom" width="100%" />
     </main>
+    <img src="./assets/bottom-image.svg" alt="" class="bottom" width="100%" />
     <script src="./scripts/script.js"></script>
   </body>
 </html>
